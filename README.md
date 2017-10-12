@@ -1,5 +1,7 @@
 # Laravel-Facebook
 
+[![Build Status](https://travis-ci.org/aplr/laravel-facebook.svg?branch=master)](https://travis-ci.org/aplr/laravel-facebook)
+
 ## Introduction
 
 The `laravel-facebook` package allows you to use the Facebook-SDK in a more laravel-ish way.
