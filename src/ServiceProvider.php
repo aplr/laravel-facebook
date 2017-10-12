@@ -3,9 +3,9 @@
 namespace Aplr\LaravelFacebook;
 
 use Facebook\Facebook;
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
-class FacebookServiceProvider extends ServiceProvider {
+class ServiceProvider extends LaravelServiceProvider {
     
     protected $defer = true;
     
