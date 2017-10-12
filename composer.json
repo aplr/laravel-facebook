@@ -19,7 +19,7 @@
         "facebook/graph-sdk" : "~5.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.0",
+        "phpunit/phpunit": "~5.0",
         "mockery/mockery": "~0.9"
     },
     "autoload": {
