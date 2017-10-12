@@ -1,6 +1,8 @@
 # Laravel-Facebook
 
-[![Build Status](https://travis-ci.org/aplr/laravel-facebook.svg?branch=master)](https://travis-ci.org/aplr/laravel-facebook)
+[![Travis](https://img.shields.io/travis/aplr/laravel-facebook.svg)](https://packagist.org/packages/aplr/laravel-facebook)
+[![Packagist](https://img.shields.io/packagist/v/aplr/laravel-facebook.svg)](https://packagist.org/packages/aplr/laravel-facebook)
+[![license](https://img.shields.io/github/license/aplr/laravel-facebook.svg)](https://packagist.org/packages/aplr/laravel-facebook)
 
 ## Introduction
 
