@@ -18,6 +18,10 @@
         "illuminate/support": "5.3.x|5.4.x|5.5.x",
         "facebook/graph-sdk" : "~5.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "mockery/mockery": "~0.9"
+    },
     "autoload": {
         "psr-4": {
             "Aplr\\LaravelFacebook\\": "src/"
