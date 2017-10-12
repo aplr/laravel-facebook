@@ -27,9 +27,6 @@
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "4.0-dev"
-        },
         "laravel": {
             "providers": [
                 "Aplr\\LaravelFacebook\\ServiceProvider"
