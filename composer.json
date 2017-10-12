@@ -1,6 +1,6 @@
 {
     "name": "aplr/laravel-facebook",
-    "description": "Laravel Passport provides OAuth2 server support to Laravel.",
+    "description": "Facebook SDK Bridge for Laravel",
     "keywords": ["laravel", "facebook", "facebook-sdk"],
     "license": "MIT",
     "support": {
