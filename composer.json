@@ -1,0 +1,47 @@
+{
+    "name": "aplr/laravel-facebook",
+    "description": "Laravel Passport provides OAuth2 server support to Laravel.",
+    "keywords": ["laravel", "facebook", "facebook-sdk"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/aplr/laravel-facebook/issues",
+        "source": "https://github.com/aplr/laravel-facebook"
+    },
+    "authors": [
+        {
+            "name": "Andreas Pfurtscheller",
+            "email": "hello@aplr.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.3.x|5.4.x|5.5.x",
+        "facebook/graph-sdk" : "~5.0"
+    },
+    "require-dev": {
+        "illuminate/framework": "5.5.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aplr\\LaravelFacebook\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Aplr\\LaravelFacebook\\ServiceProvider"
+            ],
+            "aliases": {
+                "Facebook": "Aplr\\LaravelFacebook\\Facade"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
